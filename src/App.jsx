@@ -1,14 +1,11 @@
 import React from 'react';
 import {createRoot} from 'react-dom/client';
-import SearchParams from './SearchParams';
-
-  
+import SearchParams from './SearchParams';  
   const App = () => {
-    <div>
+   return (<div>
         <h1>Adopt Me!</h1>
         <SearchParams />
-        
-    </div>
+    </div>)
   };
   const container = document.getElementById("root");
 const root = createRoot(container);
